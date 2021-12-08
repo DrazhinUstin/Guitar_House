@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar House</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/88b18bb1d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!------------------------------------- PRELOADER ------------------------------------->
+
+    <div class="preloader">
+        <div class="preloader-container">
+            <span class="preloader-text">LOADING</span>
+            <span class="preloader-circle"></span>
+        </div> 
+    </div>
+
+    <!------------------------------------- NAVIGATION ------------------------------------->
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-heading">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="logo">
+                    <div>Guitar House</div>                    
+                </div>
+                <button class="nav-menu-toggle-btn">
+                    <span class="btn-line-1"></span>
+                    <span class="btn-line-2"></span>
+                    <span class="btn-line-3"></span>
+                </button>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="scroll-link">Home</a></li>
+                <li><a href="#guitars" class="scroll-link">Products</a></li>
+                <li><a href="#about" class="scroll-link">About</a></li>
+            </ul>
+            <div class="cart-btn-wrapper">
+                <button class="cart-btn">
+                    <i class="fas fa-cart-plus"></i>
+                </button>
+                <span class="cart-items-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <!------------------------------------- HEADER ------------------------------------->
+
+    <header id="home">
+        <div class="intro">
+            <h1>Guitar Collection</h1>
+            <p>You will like with us</p>
+            <a href="#guitars" class="scroll-link">Show now</a>
+        </div>
+    </header>
+
+    <!------------------------------------- SECTION-GUITARS ------------------------------------->
+
+    <section id="guitars" class="section">
+        <h2><span>Our Guitars</span></h2>
+        <div class="filter-btns"></div>
+        <div class="products-container"></div>
+    </section>
+
+    <!------------------------------------- SECTION-ABOUT ------------------------------------->
+
+    <section id="about" class="section">
+        <h2><span>About us</h2>
+        <div class="content-wrapper">
+            <blockquote class="blockquote">
+                <p>
+                    <span><i class="fas fa-quote-left"></i></span> Sometimes the best thing you can do with a guitar is just stare at it..."
+                </p>
+            </blockquote>
+            <div class="slider">
+                <img src="images/slider/slide-1.jpg" alt="guitar-house" class="slide">
+                <img src="images/slider/slide-2.jpg" alt="guitar-player" class="slide">
+                <img src="images/slider/slide-3.jpg" alt="guitar-girl" class="slide">
+                <img src="images/slider/slide-4.jpg" alt="guitar-girl" class="slide">
+                <img src="images/slider/slide-5.jpg" alt="restringing" class="slide">
+                <div class="slider-btns">
+                    <button class="left-slider-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="right-slider-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            <p class="text-content">
+                We are a small boutique store that provides a rich collection of acoustic instruments. Among our guitars there are quite rare and vintage instruments. There are also more common models that you can find in other guitar stores. You can come, see our collection, play any instruments that you like, and of course buy them if you want.
+            </p>
+            <p class="text-content">
+                All our instruments are in excellent condition. We constantly serve them and keep them clean and tidy. We have no bad non-playable instruments and you will immediately see this. Therefore, we are waiting for you at our store and we guarantee that you will be satisfied.
+            </p>
+            <p class="text-content">
+                To find out more information about us and ask questions, you can write to us on our email:<br> <span>zmagar91@gmail.com</span>
+            </p>
+            <!--ANIMATION-->
+            <div class="circles">
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+            </div>
+            <!--END OF ANIMATION-->
+        </div>
+    </section>
+
+    <!------------------------------------- PRODUCT-INFO ------------------------------------->
+
+    <div class="product-info-overlay">
+        <div class="product-info"></div>
+    </div>
+
+    <!------------------------------------- CART -------------------------------------->
+
+    <div class="cart-overlay">
+        <div class="cart">
+            <button class="close-cart-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <h3>Your cart</h3>
+            <div class="cart-items"></div>
+            <div class="cart-footer">
+                <h3>Total: <span class="cart-total"></span></h3>
+                <button class="clear-cart-btn">Clear cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------- FOOTER ------------------------------------->
+
+    <footer class="footer">
+        <div class="content-wrapper">
+            <div class="logo">
+                <img src="images/logo.svg" alt="logo">
+                <div>Guitar House</div>                    
+            </div>
+            <div class="underline"></div>
+            <p class="copyright">
+                &copy; <span class="date"></span> Drazhin Ustin Project<br>
+                Email: zmagar91@qmail.com<br>
+                All rights are reserved
+            </p>
+        </div>
+    </footer>
+
+    <!------------------------------------- SCRIPT ------------------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
