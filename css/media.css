@@ -36,7 +36,6 @@
         display: block;
         border: none;
         background-color: inherit;
-        cursor: pointer;
     }
     .nav-menu-toggle-btn > * {
         position: absolute;
@@ -174,7 +173,7 @@
         font-size: 1.6rem;
     }
     .filter-btns {
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
     }
     .filter-btns > * {
         padding: 0.1rem 0.3rem;

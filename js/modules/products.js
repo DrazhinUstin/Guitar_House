@@ -153,7 +153,7 @@ class Products {
                                 <div class="single-product-images-container">${product.images.map((item, index) => {
                                     return `<img src="${item}" alt="${product.title}" class="${index === 0 ? 'active' : ''}">`
                                 }).join('')}</div>
-                                <h4><span>About</span></h4>
+                                <h4><span class="underline">About</span></h4>
                                 <p>${product.description}</p>
                                 <div class="single-product-price">
                                     Original price: <span>$${product.price}</span>
